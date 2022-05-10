@@ -1,0 +1,6 @@
+# Doc: https://golangci-lint.run/usage/configuration/
+
+linters:
+  disable:
+    # 2022-05 Doesn't seem to work correctly with Go 1.18
+    - typecheck
